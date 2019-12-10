@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
+    <link rel="icon" href="img/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
     <link href="https://fonts.googleapis.com/css?family=Baskervville|Tomorrow&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
     <meta charset="utf-8">
-    <title>OS - Computer People</title>
+    <title>John Von Neuman - Computer People</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
@@ -27,7 +28,7 @@
             <div class="dropdown-content">
               <p><a href="OS.html">Internet</a></p>
               <p><a href="OS.html">App Mobile</a></p>
-              <p><a href="OS.html">Hardware</a></p>
+              <p><a href="Hardware.html">Hardware</a></p>
               <p><a href="OS.html">Cyber-sécurité</a></p>
               <p><a href="OS.html">OS</a></p>
             </div>
@@ -79,69 +80,43 @@
     </div>
     <! -- EN-TÊTE -->
     <div class="header">
-      <h1><span class="blue">Développeur</span> Hardware</h1>
-      <p>Classé par ...</p>
+      <h1><span class="blue">John</span> Von Neuman</h1>
     </div>
     <! -- CONTENEUR -->
     <div id="container">
-      <table>
-        <tbody>
-          <tr class="headerLigne blue">
-            <th>Classement</th>
-            <th>Photo</th>
-            <th>Nom</th>
-            <th>Prénom</th>
-            <th>Age</th>
-            <th>Création</th>
-          </tr>
-          <a href="#">
-          <tr>
-            <td class="classement">1</td>
-            <td><img src="img/Hardware_img/herman-hollerith.png" alt="Herman_Hollerith"></td>
-            <td><a href="Bion-herman-holerith.html">Hollerith</a></td>
-            <td>Herman</td>
-            <td>69 ans(†)</td>
-            <td>IBM</td>
-          </tr>
-        </a>
-          <tr>
-            <td class="classement">2</td>
-            <td><img src="img/Hardware_img/von-neuman.jpg" alt="von-neuman"></td>
-            <td><a href="John Von Neuman.html">Von Neumann</a></td>
-            <td>John</td>
-            <td>53 ans(†)</td>
-            <td>Processeur</td>
-          </tr>
-          <tr>
-            <td class="classement">3</td>
-            <td><img src="img/Hardware_img/steve-wozniak.jpg" alt="steve-wozniak"></td>            
-            <td><a href="Bio-steve-wozniak.html">Wosniak</a></td>
-            <td>Steve</td>
-            <td>69 ans</td>
-            <td>Apple I</td>
-          </tr>
-          <tr>
-            <td class="classement">4</td>
-            <TD><img src="img/Hardware_img/Alan_Turing.jpg" alt="Alan_Turing"></TD>
-            <td><a href="alan-turing-bio.html">Turing</a></td>
-            <td>Alan</td>
-            <td>41 ans(†)</td>
-            <td>Mécanographie</td>
-          </tr>
-          <tr>
-            <td class="classement">5</td>
-            <td><img src="img/Hardware_img/alant_kay.jpg" alt="alan_kay"></td>
-            <td><a href="Bio-alan-kay.html">Kay</a></td>
-            <td>Alan</td>
-            <td>79 ans</td>
-            <td>Ordinateur personnel</td>
-          </tr>
-        </tbody>
-      </table>
+      <div id="sous-container">
+        <! -- BIOGRAPHIE -->
+        <div id="bio">
+          <div class="titrePartie">
+            <h1 class="blue" >Biographie</h1>
+          </div>
+          <p>John von Neumann, né le 28 décembre 1903 à Budapest et mort le 8 février 1957 à Washington, est un mathématicien et physicien américano-hongrois. Il a apporté d'importantes contributions tant en mécanique quantique qu'en analyse fonctionnelle, en théorie des ensembles, en informatique, en sciences économiques ainsi que dans beaucoup d'autres domaines des mathématiques et de la physique. Il a de plus participé aux programmes militaires américains. 
+            C'est âgé d'à peine 22 ans qu'il reçoit son doctorat en mathématiques (et en physique expérimentale et en chimie comme matières secondaires) de l'université de Budapest. En parallèle, il obtient un diplôme en génie chimique de l'École polytechnique fédérale de Zurich. Il est le major de sa promotion pour les deux universités. Entre 1926 et 1930, il est le plus jeune au monde 4 à recevoir à 25 ans le titre de privatdozent à Berlin et à Hambourg. Il reçoit une bourse de la fondation Rockefeller pour travailler également à l'université de Göttingen — à l'époque capitale mondiale des mathématiques et de la physique théorique — avec Robert Oppenheimer sous la direction de David Hilbert 5. Durant cette « période allemande », l'une des plus fécondes de sa vie, il côtoie également Werner Heisenberg et Kurt Gödel.
+            </p>
+          <img src="img/Hardware_img/john_von_neuman_bio.jpeg" alt="john_von_neuman_bio" class="imageBio">
+        </div>
+        <! -- RÉALISATION -->
+        <div id="rea">
+          <h1 class="blue">Réalisations</h1>
+          <! -- RÉA : N°1 -->
+          <div class="rea">
+            <h3>Processeur</h3>
+            <p>Von Neumann a donné son nom à l'architecture de von Neumann utilisée dans la quasi-totalité des ordinateurs modernes, l'apport d'autres collaborateurs de l'EDVAC en est par conséquent grandement minimisé (on citera J. Presper Eckert, Grace Hopper et John William Mauchly parmi d'autres). Cela est dû au fait qu'il est, en 1945, le rapporteur des travaux pionniers en la matière (First Draft of a Report on the EDVAC). Le modèle de calculateur à programme auquel son nom reste attaché et qu'il attribuait lui-même à Alan Turing, possède une unique mémoire qui sert à conserver les instructions et les données. Ce modèle, extrêmement innovant pour l'époque, est à la base de la conception de la plupart des ordinateurs conçus aujourd'hui.</p>
+          </div>
+          <! -- RÉA : N°2 -->
+         </div>
+        </div>
+      </div>
+      <hr>
+      <div id="rank">
+        <div class="rank"><h1 class="">1</h1><p class="suffix blue">er</p></div>
+        <div class="rank"><h1 class="">3</h1><p class="suffix blue">ème</p></div>
+        <div class="rank"><h1 class="">2</h1><p class="suffix blue">nd</p></div>
+      </div>
     </div>
     <! -- PIED DE PAGE -->
     <footer class="footer">
-      <h3><span class="blue" >Computer</span>People <span>©</span> - 2019</h3>
+      <p><span class="blue" >Computer</span><span class="black" >People <span>©</span> - 2020</span></p>
     </footer>
   </body>
 </html>
